@@ -8,7 +8,9 @@
     "start": "next start",
     "codegen": "graphql-codegen --config codegen.yml -r dotenv/config",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "lint": "eslint --ext .ts,.tsx src",
+    "type-check": "tsc --noEmit"
   },
   "keywords": [],
   "author": "VNA Team",
